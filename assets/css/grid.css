@@ -1,0 +1,305 @@
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -24px;
+    margin-right: -24px;
+}
+
+.col {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.l-0 {
+    display: none;
+}
+
+.l-1,
+.l-2,
+.l-3,
+.l-4,
+.l-5,
+.l-6,
+.l-7,
+.l-8,
+.l-9,
+.l-10,
+.l-11,
+.l-12 {
+    display: block;
+}
+
+.l-1 {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+}
+
+.l-2 {
+    flex: 0 0 16.66666%;
+    max-width: 16.66666%;
+}
+
+.l-3 {
+    flex: 0 0 24.99999%;
+    max-width: 24.99999%;
+}
+
+.l-4 {
+    flex: 0 0 33.33332%;
+    max-width: 33.33332%;
+}
+
+.l-5 {
+    flex: 0 0 41.66665%;
+    max-width: 41.66665%;
+}
+
+.l-6 {
+    flex: 0 0 49.99998%;
+    max-width: 49.99998%;
+}
+
+.l-7 {
+    flex: 0 0 58.33331%;
+    max-width: 58.33331%;
+}
+
+.l-8 {
+    flex: 0 0 66.66664%;
+    max-width: 66.66664%;
+}
+
+.l-9 {
+    flex: 0 0 74.99997%;
+    max-width: 74.99997%;
+}
+
+.l-10 {
+    flex: 0 0 83.3333%;
+    max-width: 83.3333%;
+}
+
+.l-11 {
+    flex: 0 0 91.66663%;
+    max-width: 91.66663%;
+}
+
+.l-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* high tablet - low PC */
+@media (min-width: 1024px) and (max-width: 1239px) {
+
+    .wide {
+        width: 984px;
+    }
+
+    .wide .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+} 
+
+
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .wide {
+        width: 644px;
+    }
+
+    .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .m-0 {
+        display: none;
+    }
+
+    .m-1,
+    .m-2,
+    .m-3,
+    .m-4,
+    .m-5,
+    .m-6,
+    .m-7,
+    .m-8,
+    .m-9,
+    .m-10,
+    .m-11,
+    .m-12 {
+        display: block;
+    }
+
+    .m-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+
+    .m-2 {
+        flex: 0 0 16.66666%;
+        max-width: 16.66666%;
+    }
+
+    .m-3 {
+        flex: 0 0 24.99999%;
+        max-width: 24.99999%;
+    }
+
+    .m-4 {
+        flex: 0 0 33.33332%;
+        max-width: 33.33332%;
+    }
+
+    .m-5 {
+        flex: 0 0 41.66665%;
+        max-width: 41.66665%;
+    }
+
+    .m-6 {
+        flex: 0 0 49.99998%;
+        max-width: 49.99998%;
+    }
+
+    .m-7 {
+        flex: 0 0 58.33331%;
+        max-width: 58.33331%;
+    }
+
+    .m-8 {
+        flex: 0 0 66.66664%;
+        max-width: 66.66664%;
+    }
+
+    .m-9 {
+        flex: 0 0 74.99997%;
+        max-width: 74.99997%;
+    }
+
+    .m-10 {
+        flex: 0 0 83.3333%;
+        max-width: 83.3333%;
+    }
+
+    .m-11 {
+        flex: 0 0 91.66663%;
+        max-width: 91.66663%;
+    }
+
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} 
+
+/* mobile */
+@media (max-width: 739px) {
+    .col {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .s-0 {
+        display: none;
+    }
+
+    .s-1,
+    .s-2,
+    .s-3,
+    .s-4,
+    .s-5,
+    .s-6,
+    .s-7,
+    .s-8,
+    .s-9,
+    .s-10,
+    .s-11,
+    .s-12 {
+        display: block;
+    }
+
+    .s-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+
+    .s-2 {
+        flex: 0 0 16.66666%;
+        max-width: 16.66666%;
+    }
+
+    .s-3 {
+        flex: 0 0 24.99999%;
+        max-width: 24.99999%;
+    }
+
+    .s-4 {
+        flex: 0 0 33.33332%;
+        max-width: 33.33332%;
+    }
+
+    .s-5 {
+        flex: 0 0 41.66665%;
+        max-width: 41.66665%;
+    }
+
+    .s-6 {
+        flex: 0 0 49.99998%;
+        max-width: 49.99998%;
+    }
+
+    .s-7 {
+        flex: 0 0 58.33331%;
+        max-width: 58.33331%;
+    }
+
+    .s-8 {
+        flex: 0 0 66.66664%;
+        max-width: 66.66664%;
+    }
+
+    .s-9 {
+        flex: 0 0 74.99997%;
+        max-width: 74.99997%;
+    }
+
+    .s-10 {
+        flex: 0 0 83.3333%;
+        max-width: 83.3333%;
+    }
+
+    .s-11 {
+        flex: 0 0 91.66663%;
+        max-width: 91.66663%;
+    }
+
+    .s-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+} 

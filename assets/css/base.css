@@ -15,12 +15,6 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
 .grid__full-width {
     width: 100%;
 }
@@ -33,7 +27,7 @@ html {
 }
 
 .grid__column-2 {
-    width: 16.667%;
+    width: 16.66666%;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -45,13 +39,13 @@ html {
 }
 
 .grid__column-2-6 {
-    width: 16.666%;
+    width: 16.66666%;
     padding-left: 5px;
     padding-right: 5px;
 }
 
 .grid__column-10 {
-    width: 83.333%;
+    width: 83.33333%;
     padding-left: 5px;
     padding-right: 5px;
 }

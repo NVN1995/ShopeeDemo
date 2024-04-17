@@ -784,7 +784,7 @@
 
 
 
-
+/* =====>  Body <==== */
 
 .app__container {
     background-color: #F5F5F5;
@@ -792,12 +792,13 @@
 }
 
 .app__content {
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
-/* ==========>  Category <======== */
 
+/* =====>  Category <==== */
 .category {
     background-color: var(--white-color);
     border-radius: 2px;
@@ -924,6 +925,10 @@
 
 
 /* ======  Product ========= */
+
+.product {
+    max-width: 100%;
+}
 
 .product-item {
     display: block;
@@ -1110,6 +1115,7 @@
     background-color: #fff;
     width: 100%;
     padding: 0 80px 40px;
+    max-width: 100%;
 }
 
 
