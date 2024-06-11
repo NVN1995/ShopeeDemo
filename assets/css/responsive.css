@@ -46,6 +46,7 @@
         top: -2%;
         right: 2%;
     }
+
     .searching-area {
         margin: 6px 0;
     }
@@ -77,7 +78,25 @@
         color: rgb(122, 116, 116)
     }
 
+    .signup-wrap {
+        width: "";
+        max-width: 85vw;
+    }
+
+    .signup-link-item {
+        margin-bottom: 10px;
+    }
+
+    .signup-link-item-google {
+    padding: 10px 34px;
+    }
+
 }
+
+
+
+
+
 
 /* mobile + tablet */
 @media (max-width: 1023px) {
@@ -115,6 +134,10 @@
     }
 }
 
+
+
+
+
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
     
@@ -146,6 +169,9 @@
         right: 4%;
     }       
 }
+
+
+
 
 @media (min-width: 740px) {
     .hide-m-l {

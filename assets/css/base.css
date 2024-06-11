@@ -190,3 +190,7 @@ html {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
+
+.not-clickable {
+    pointer-events: none;
+}
