@@ -16,9 +16,11 @@ function checkRePassword() {
 function checkPasswordLength() {
     if ((document.getElementById('signup-password').value.length) > 5) {
         document.getElementById('pw-check-length').innerHTML = '';
+        document.getElementById('signup-submit').classList.remove('not-clickable');
     } else {
         document.getElementById('pw-check-length').innerHTML = 'password must be at least 6 character';
         document.getElementById('pw-check-length').style.color = 'red';
+        document.getElementById('signup-submit').classList.add('not-clickable');
     }
 
 }
